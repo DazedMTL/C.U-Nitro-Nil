@@ -37,16 +37,16 @@ module ZiifSaveLayoutA
   # ▼ セーブ確認設定
   SaveConfirm          = true   # セーブ確認を行うかどうか ( true / false )
   SConfirmationDefault = 0      # 初期位置 ( 0:はい / 1:いいえ )
-  V_SConfirmation      = "セーブしてもよろしいですか？"   # 用語 : セーブ確認
-  V_SConfirmationYes   = "セーブする"                     # 用語 : はい
-  V_SConfirmationNo    = "しない"                         # 用語 : いいえ
+  V_SConfirmation      = "Are you sure you want to save?"   # 用語 : セーブ確認
+  V_SConfirmationYes   = "Save"                     # 用語 : はい
+  V_SConfirmationNo    = "Cancel"                         # 用語 : いいえ
   
   # ▼ ロード確認設定
   LoadConfirm          = true   # ロード確認を行うかどうか ( true / false )
   LConfirmationDefault = 0      # 初期位置 ( 0:はい / 1:いいえ )
-  V_LConfirmation      = "ロードしてもよろしいですか？"   # 用語 : ロード確認
-  V_LConfirmationYes   = "ロードする"                     # 用語 : はい
-  V_LConfirmationNo    = "しない"                         # 用語 : いいえ
+  V_LConfirmation      = "Are you sure you want to load?"   # 用語 : ロード確認
+  V_LConfirmationYes   = "Load"                     # 用語 : はい
+  V_LConfirmationNo    = "Cancel"                         # 用語 : いいえ
   
   # ▼ ファイル画面背景画像名 ( "" : 未使用、画像は Graphics/Pictures に)
   SaveBackground = ""           # セーブ画面背景

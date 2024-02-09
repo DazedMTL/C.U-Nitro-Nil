@@ -33,7 +33,7 @@ class Window_ActorCommand < Window_Command
   # ● アイテムコマンドをリストに追加
   #--------------------------------------------------------------------------
   def add_equip_command
-    add_command("装備", :equip)
+    add_command("Equipment", :equip)
   end
 end
 

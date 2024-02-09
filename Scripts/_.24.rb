@@ -28,7 +28,7 @@ module KURE
       GOLD_ICON = 0
       
       #ゴールド獲得時のメッセージ
-      GOLD_INFO = "Mo獲得"
+      GOLD_INFO = "Mo Obtained"
       
       #インフォメーションに表示するアイコンのID
       INFO_ICON = 230
@@ -273,7 +273,7 @@ class Window_Gain_item_Info < Window_Base
       when 0
         draw_item_name(data[0], 0, line_height * index, true)
         change_color(tp_gauge_color2)
-        draw_text(0, line_height * index, window_width - 30, line_height, data[1].to_s + " 個獲得", 2)
+        draw_text(0, line_height * index, window_width - 30, line_height, data[1].to_s + " Obtained", 2)
         change_color(normal_color)
       when 1
         draw_icon(data[0], 0, line_height * index, true)

@@ -930,7 +930,7 @@ module HZM_VXA
         @command_window = Window_VolConfig.new
         @command_window.viewport = @viewport
         @command_window.set_handler(:cancel,   method(:return_scene))
-        @help_window.set_text("ゲームの音量の調整ができます。（0：無音～100:最大）\n←　音量を下げる　／　音量を上げる　→")
+        @help_window.set_text("You can adjust the game volume. (0: Mute ~ 100: Maximum)\n← Lower volume / Raise volume →")
       end
       #-------------------------------------------------------------------------
       # ● 終了処理

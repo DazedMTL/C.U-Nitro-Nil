@@ -86,8 +86,8 @@ module ED
   
   
   
-  VOCAB_QUEST_END_OK = "任務完了"    # 表示文字
-  VOCAB_MENU_TEXT = "任務"   # メニュー画面の表示文字
+  VOCAB_QUEST_END_OK = "Complete"    # 表示文字
+  VOCAB_MENU_TEXT = "Tasks"   # メニュー画面の表示文字
   QUEST_FONT_SIZE = 19           # クエスト内容の文字サイズ
   MENU_QUEST_COMMAND_COMON_ID = 110 # メニュー画面から呼び出すコモンイベントID
   
