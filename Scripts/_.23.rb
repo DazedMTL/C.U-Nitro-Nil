@@ -292,12 +292,12 @@ class Game_Quest < Game_Interpreter
       # 注釈：タイトル
       str1 = annotation_all_string(event)           # コマンド含みの注釈全容取得
       str2 = annotation_string(str1,CMD_TITLE)      # コマンドを除く注釈内容取得
-      text = convert_special_characters(str2)       # 注釈中の特殊文字を変換
+      text = convert_special_characters(str2.gsub! '_', ' ')       # 注釈中の特殊文字を変換
       @quest[@quest_number][0] = text               # インスタンスにタイトルを保持
       return false
     elsif event.include?(CMD_CONTENT)
       # 注釈：内容
-      str1 = annotation_all_string(event)             # コマンド含みの注釈全容取得
+      str1 = annotation_all_string(event)            # コマンド含みの注釈全容取得
       str2 = annotation_string(str1,CMD_CONTENT)      # コマンドを除く注釈内容取得
       unless @quest[@quest_number][1] == ""
         # 既に内容があり続きの「内容：」なら冒頭で改行処理。
@@ -528,7 +528,7 @@ class Window_Quest_Contents < Window_Selectable
     line = 0 # 処理中の行数
     loop do
       c = text.slice!(/./m)            # 次の文字を取得
-      self.contents.font.size = ED::QUEST_FONT_SIZE
+      self.contents.font.size = ED::QUEST_FONT_SIZE - 4
       self.contents.font.color.alpha = enabled ? 255 : 128
       case c
       when nil
