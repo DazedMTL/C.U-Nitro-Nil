@@ -215,7 +215,7 @@ class Window_Base < Window
   #--------------------------------------------------------------------------
   def reset_font_settings
     change_color(normal_color)
-    contents.font.size = Font.default_size
+    contents.font.size = 20
     contents.font.bold = false
     contents.font.italic = false
   end

@@ -236,11 +236,12 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '-1', !!int '8', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['開くぞ……やっぱりここの鍵だったんだ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Let''s open it... I knew it was the key to this place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '6', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['中には何があるか判らない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為準備をして置いた方がいいよね……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['We don''t know what''s inside. It''s best to be prepared, just
+
+            in case...']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
         'c': !!int '205'
@@ -388,9 +389,14 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['俺達守備隊はこの集落に常駐し、絶えず警戒を続けている。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['自由交易が禁止された今も、ここは政府にとっては要所だからだ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"We, the garrison, are permanently stationed in this
+
+            settlement, maintaining constant vigilance. Even now, with
+
+            free trade prohibited, this place remains a strategic point
+
+            for the government."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -468,9 +474,14 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['俺達守備隊はこの集落に常駐し、絶えず警戒を続けている。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['自由交易が禁止された今も、ここは政府にとっては要所だからだ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"We, the garrison, are permanently stationed in this
+
+            settlement, maintaining constant vigilance. Even now, when
+
+            free trade is prohibited, this place remains a strategic
+
+            point for the government."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -744,13 +755,15 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*20]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*21]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【星を見る者】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['特務兵！？何でこんな所に！？何処から湧いて出やがった！？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Star Gazer】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Special forces!? Why are you here!? Where did you spring out
+
+            from!?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '301', 'p': [!!int '0', !!int '106', !!bool 'false', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '224', 'p': [!ruby/object:Color {'r': !!float '255.0', 'g': !!float '255.0', 'b': !!float '255.0', 'a': !!float '255.0'}, !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【星を見る者】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['が……あっ！？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Star Gazer】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Ga...ahh!?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '212', 'p': [!!int '0', !!int '112', !!bool 'false']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
@@ -767,7 +780,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*22]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '6', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '123', 'p': ['A', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
@@ -874,12 +887,15 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*27]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['娘さんの所に戻る前に少しだけ時間を']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['頂けませんか？管制室を探してみたいんです。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"Could I have a little time before returning to your
+
+            daughter''s place? I''d like to try looking for the control
+
+            room."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '11']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……判りました。この場はあなたにお任せ致します。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"...Understood. I''ll leave this place in your hands."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
@@ -965,9 +981,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['反乱を企てた構成員は粗方捕らえた様だ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['直に集落も平穏を取り戻すだろう。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"It seems we''ve captured most of the members who plotted the
+
+            rebellion. The village should regain its peace soon."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '10': !ruby/object:RPG::Event
     'id': !!int '10'
@@ -1014,7 +1031,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['奴らは民間人の分際で政府に楯突いた犯罪者共だ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['いずれ相応しい報いを受けさせてやる……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"They are mere civilians who dared to defy the government, a
+
+            bunch of criminals. They will eventually receive the
+
+            punishment they deserve..."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}

@@ -164,9 +164,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここは重要犯罪者を収監するネレド監獄である。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['用の場合はそのまま中へ進め。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['This is Nered Prison, where major criminals are
+
+            incarcerated. If you have business here, proceed inside.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -206,8 +207,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここは現在閉鎖中だ。用が無いのなら早々に立ち去れ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['This area is currently closed off. If you have no business
+
+            here, leave at once.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '16': !ruby/object:RPG::Event
     'id': !!int '16'
@@ -671,42 +674,55 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '505', 'p': [*13]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここがネレド監獄……か。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここにあのザムスィーとアイツの部下とかが捕まってるんだよね？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['So this is Nered Prison... Is this where Zamsy and his
+
+            subordinates are being held?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '1', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['うん、さっきの話だと反政府組織リモルグがここへ彼を']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['奪還しに来るって話だけど……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Yeah, according to the conversation we had earlier, the
+
+            anti-government organization Rimorg is planning to come here
+
+            to retrieve him...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['でも……奪還ってどうやって？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['監獄って普通警備とか厳重なんじゃないの？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['But... how are they going to retrieve him? Aren''t prisons
+
+            normally heavily guarded?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '6', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['それが案外杜撰なんだ。何故ならここに繋がれてる人は、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['二度とここを出られない人達……だから。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['That''s the surprising part. It''s quite lax here. The reason
+
+            being, the people tied down here... they''ll never leave this
+
+            place again.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '6', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['つまりこの中で一生を終える人達だからね。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['余計な延命の為の管理の手間も無いのさ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['In other words, these are people who will end their lives
+
+            inside. There''s no need for the extra effort of managing
+
+            life extension.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['それって……何かヒドくない……？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['そりゃ確かに中にいるのは凶悪犯とかなんだろうけど……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Isn''t that... kind of harsh...? I mean, sure, there are
+
+            heinous criminals inside, but...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face', !!int '6', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……中で任務の詳細な説明がある筈さ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['行ってみようか。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...We should get a detailed briefing on the mission inside.
+
+            Shall we go?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '3']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……うん。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...Yeah.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '123', 'p': ['A', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
@@ -792,8 +808,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここは現在閉鎖中だ。用が無いのなら早々に立ち去れ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['This area is currently closed off. If you have no business
+
+            here, leave at once.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '5': !ruby/object:RPG::Event
     'id': !!int '5'
@@ -839,9 +857,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここは重要犯罪者を収監するネレド監獄である。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['用の場合はそのまま中へ進め。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['This is Nered Prison, where major criminals are
+
+            incarcerated. If you have business here, proceed inside.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -881,6 +900,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【警務兵】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここは現在閉鎖中だ。用が無いのなら早々に立ち去れ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Military Police Soldier】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['This area is currently closed off. If you have no business
+
+            here, leave at once.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}

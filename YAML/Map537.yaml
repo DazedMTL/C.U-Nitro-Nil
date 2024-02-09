@@ -457,10 +457,14 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【住人】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここは東を海、西を高い山に囲まれた僻地中の僻地だ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['本土へ渡るには西の検問所を通らなきゃ出られねえ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['正に閉鎖地区って奴さ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Resident】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['This place is a remote area within a remote area, surrounded
+
+            by the sea to the east and high mountains to the west. To
+
+            get to the mainland, you have to pass through the checkpoint
+
+            to the west. It''s truly a closed-off district.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '15': !ruby/object:RPG::Event
     'id': !!int '15'
@@ -506,10 +510,14 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【住人】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['最近日ごとに反政府組織の連中の勢力が増していると聞いている。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['まあ自業自得と言うヤツだろう。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['政府の連中の俺達に対する姿勢を鑑みれば無理からん事と思うがな。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Resident】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"I''ve heard that the power of the anti-government groups has
+
+            been growing day by day. Well, it''s what you''d call reaping
+
+            what you sow. Considering the government''s attitude towards
+
+            us, it''s not surprising."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '2': !ruby/object:RPG::Event
     'id': !!int '2'
@@ -615,9 +623,10 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '-1', !!int '8', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['案内係を用意したとか言ってたけど……遅いな。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここで待ち合わせの筈だけど……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['They said they''d arranged for a guide... but they''re late.
+
+            We were supposed to meet here...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand
         'i': !!int '0'
@@ -666,53 +675,57 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去怒り', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['は、はあ……はあ……す、すみません。遅くなりました。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Haa... haa... I''m sorry for being late.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '-1', !!int '2', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あなたは？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...And you are?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去疑問', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['あれ……？私の事聞いてませんか？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['イヤだわ……行き違いかしら？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Huh...? Didn''t you hear about me? Oh no... could there have
+
+            been a mix-up?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '39']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['まさか……あなたが俺の案内係ですか？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Don''t tell me... you''re my guide?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '10', !!int '3', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑い2', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['はい。とは言っても本来ここに来る筈だった人の代理ですが。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Yes. Although, I''m just standing in for the person who was
+
+            originally supposed to come here.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['はあ……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Haa...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑1', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['兵隊さんは明日からご着任なんですよね？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['You''re starting your military service from tomorrow, right?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['では早速行きましょうか。とは言っても狭い土地ですし、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['左程ご案内する場所もありませんが。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Shall we get going then? Although, it''s a small place, so
+
+            there''s not much to show you.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['よ、宜しくお願いします。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Y-Yes, thank you.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑い2', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ふふ、はい。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hehe, sure.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '120']}
@@ -720,87 +733,96 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑1', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['と、まあ……ご案内する様な場所は大方回りましたが……。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['如何でしたか？退屈な所でしょう？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Well... we''ve pretty much covered all the places to show
+
+            you... How was it? Boring, wasn''t it?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '39']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去疑問', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ノグマさん？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...Noguma-san?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '40']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['あ、いえ……すみません。ボーっとして。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Ah, no... sorry. I was just spacing out.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑い2', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ふふ、退屈だったでしょう？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['本土から来た方にとっては辺鄙な場所でしょうから。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hehe, it was boring, wasn''t it? It must seem like a remote
+
+            place to someone from the mainland.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '40']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['へ、辺鄙な場所と言うのはその通りかも知れませんが……。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['退屈なんて事はありません。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Well, it might be remote as you say... but it''s not boring
+
+            at all.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['その……あ、あなたと一緒にいるのは楽しいですし……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['That is... it''s fun being with you...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑い2', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['あら、嬉しい。ふふ……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Oh, that''s nice to hear. Hehe...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '60']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑1', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['それで、どうされますか？そろそろ宿舎に戻られますか？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['So, what will you do now? Shall we head back to your
+
+            quarters soon?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['その……もう少しだけ案内して頂けませんか？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['せめてこの先まで……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Could you... show me around a little longer? At least up to
+
+            that point over there...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['も、もう少しだけ……あなたと……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Just a little longer... with you...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去疑問', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['え？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Eh?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['い、いえ。何でもありません。駄目ですか……？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['N-No, it''s nothing. Is that not okay...?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去皮肉', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['構いませんが……これ以上郊外に行くと……その……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['It''s not that I mind, but... if we go any further into the
+
+            outskirts... well...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '39']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['駄目……ですか？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Is that not okay...?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '213', 'p': [!!int '10', !!int '8', !!bool 'true']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '231', 'p': [!!int '2', 'Tミローラ_過去笑1', !!int '0', !!int '0', !!int '-40', !!int '0', !!int '100', !!int '100', !!int '0', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '2', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '30', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ミローラ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['いえ……行きましょう。何事も初めが肝心と言いますし、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['今日の私はあなたの案内係ですから。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Mirora】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['No... let''s go. They say the beginning is the most important
+
+            part, and today I am your guide after all.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '117', 'p': [!!int '41']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ノグマ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['あ、有難う御座います……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Noguma】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Oh, thank you very much...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '235', 'p': [!!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '201', 'p': [!!int '0', !!int '538', !!int '21', !!int '9', !!int '6', !!int '0']}

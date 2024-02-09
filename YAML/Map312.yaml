@@ -152,10 +152,10 @@
       'trigger': !!int '1'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]【Information】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['この先は回想ルームです。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['このまま入場しますか？\C[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', 'やめておく'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]【Information】Beyond this point is the reminiscence room.
+
+            Would you like to enter as is?\C[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Don''t enter'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'door01', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand
@@ -425,12 +425,15 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【住人】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['診療所のミローラさんは早くに旦那さんを亡くしてから、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['独りきりで娘を育てて来たんだ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Resident】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Mirora-san from the clinic has been raising her daughter
+
+            alone ever since she lost her husband early on.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【住人】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['全く頭が下がるよ。俺達にも何か協力出来る事はないもんかねえ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Resident】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['It''s truly humbling. I wonder if there''s anything we can do
+
+            to help out.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -470,9 +473,12 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【住人】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['診療所のミローラさんにオーロラちゃん……最近見かけねえなあ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['一体何処へ行っちまったんだか……無事だといいけどな……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Resident】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['I haven''t seen Miss Mirora from the clinic or Aurora-chan
+
+            around lately... I wonder where they''ve gone off to... I
+
+            hope they''re safe...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -556,9 +562,12 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【住人】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['いつまでこの閉鎖地域で暮らさねばならないのでしょうか……。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['家族皆が外界へ脱出するのが難しいのなら、せめて子供だけでも……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Resident】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['How long must we live in this closed-off area... If it''s
+
+            difficult for the whole family to escape to the outside
+
+            world, at least the children should be able to...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -598,9 +607,12 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【住人】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['こんな時だからこそ、全ての人々が団結すべきと思います。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['しかし、軍部と民衆の距離は益々離れていくばかりです……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Resident】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['It''s precisely times like these that all people should
+
+            unite, I believe. However, the distance between the military
+
+            and the populace only continues to grow...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition

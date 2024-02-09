@@ -218,7 +218,7 @@
       'priority_type': !!int '1'
       'trigger': !!int '0'
       'list':
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['武器', '防具'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Weapons', 'Armor'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '武器']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '302', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '605', 'p': [!!int '1', !!int '2', !!int '0', !!int '0']}
@@ -278,7 +278,7 @@
       'priority_type': !!int '1'
       'trigger': !!int '0'
       'list':
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['武器', '防具'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Weapons', 'Armor'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '武器']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '302', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '605', 'p': [!!int '1', !!int '2', !!int '0', !!int '0']}
@@ -473,9 +473,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【作業者】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ここはこの地下発掘作業場で唯一のマーケットだ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['もっとも嗜好品の類は一切置いてねえけどな。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Worker】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['This is the only market in this underground excavation site.
+
+            Although, we don''t carry any sort of luxury goods at all.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -559,9 +560,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【作業者】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['何を見てやがる？あ？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ヒトがゴミ漁りしてる姿がそんなに楽しいのか？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Worker】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['What are you looking at, huh? Is it that amusing to watch
+
+            someone rummage through trash?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -645,9 +647,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【作業者】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ゴミみてえなモノしか売らねえで何がマーケットだ。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['こんな所で金を落とす位なら安い女でも買った方がマシってもんだぜ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Worker】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['What kind of market is this, selling nothing but trash? I''d
+
+            rather spend my money on a cheap girl than waste it here.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -731,9 +734,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【作業者】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['武器に転用出来そうなモノの類は売ってねえ……か。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['どうやら無駄足だったみてえだな……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Worker】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Looks like they don''t sell anything that could be repurposed
+
+            as a weapon... Seems like it was a wasted trip...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1125,10 +1129,10 @@
       'trigger': !!int '1'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]【Information】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['この先は回想ルームです。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['このまま入場しますか？\C[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', 'やめておく'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]【Information】Beyond this point is the reminiscence room.
+
+            Would you like to enter as is?\C[0]']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Cancel'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'door01', 'pitch': !!int '100', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand

@@ -171,7 +171,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -249,7 +249,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -326,7 +326,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san and confirm it.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -366,8 +366,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -408,7 +408,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '2': !ruby/object:RPG::Event
     'id': !!int '2'
@@ -457,7 +457,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -537,7 +537,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -616,7 +616,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san and confirm it.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -657,8 +657,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Just to be safe, let''s head
+
+            back to town...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -698,8 +699,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -740,7 +741,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '4': !ruby/object:RPG::Event
     'id': !!int '4'
@@ -789,7 +790,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -867,7 +868,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -944,7 +945,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san to make sure.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -985,8 +986,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"...That person might be right. Just to be safe, let''s head
+
+            back to town..."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1026,8 +1028,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1068,7 +1070,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '5': !ruby/object:RPG::Event
     'id': !!int '5'
@@ -1117,7 +1119,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -1197,7 +1199,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -1276,7 +1278,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san and confirm it.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1317,8 +1319,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Let''s head back to town just
+
+            to be sure...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1358,8 +1361,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1400,7 +1403,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '3': !ruby/object:RPG::Event
     'id': !!int '3'
@@ -1689,7 +1692,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -1766,7 +1769,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -1842,7 +1845,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san and confirm it.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1883,8 +1886,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Just to be safe, let''s head
+
+            back to town...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1924,8 +1928,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -1966,7 +1970,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '15': !ruby/object:RPG::Event
     'id': !!int '15'
@@ -2015,7 +2019,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2093,7 +2097,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2170,8 +2174,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Just to be safe, let''s head
+
+            back to town...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -2214,7 +2219,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2292,7 +2297,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2368,7 +2373,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face33', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['今は……アネルベヘッカへ向かわなくちゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Right now... I have to head to Anerubehecka.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -2411,7 +2416,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2489,7 +2494,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2574,7 +2579,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2652,7 +2657,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -2729,7 +2734,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san and confirm it.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -2770,8 +2775,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Just to be safe, let''s head
+
+            back to town...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -2811,8 +2817,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -2853,7 +2859,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '17': !ruby/object:RPG::Event
     'id': !!int '17'
@@ -2950,7 +2956,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -3030,7 +3036,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -3109,7 +3115,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san and confirm it.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -3150,8 +3156,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Just to be safe, let''s head
+
+            back to town...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -3191,8 +3198,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -3233,7 +3240,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -3276,7 +3283,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -3356,7 +3363,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -3436,7 +3443,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -3619,7 +3626,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -3699,7 +3706,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -3779,7 +3786,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san and make sure.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -3820,8 +3827,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Let''s head back to town just
+
+            to be safe...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -3861,8 +3869,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -3903,7 +3911,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '22': !ruby/object:RPG::Event
     'id': !!int '22'
@@ -3952,7 +3960,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -4030,7 +4038,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -4107,7 +4115,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san to make sure.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4148,8 +4156,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['"...That person might be right. Just to be safe, let''s head
+
+            back to town..."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4189,8 +4198,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4231,7 +4240,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '23': !ruby/object:RPG::Event
     'id': !!int '23'
@@ -4376,7 +4385,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -4453,7 +4462,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -4529,7 +4538,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san to make sure.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4570,8 +4579,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Just to be safe, let''s head
+
+            back to town...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4611,8 +4621,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4653,7 +4663,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '31': !ruby/object:RPG::Event
     'id': !!int '31'
@@ -4750,7 +4760,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -4830,7 +4840,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -4909,7 +4919,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san to make sure.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4950,8 +4960,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Let''s head back to town just
+
+            to be sure...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -4991,8 +5002,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -5033,7 +5044,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '33': !ruby/object:RPG::Event
     'id': !!int '33'
@@ -5130,7 +5141,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another place'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -5210,7 +5221,7 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Raise3', 'pitch': !!int '150', 'volume': !!int '70'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '232', 'p': [!!int '20', !!null 'null', !!int '0', !!int '0', !!int '0', !!int '0', !!int '100', !!int '100', !!int '255', !!int '0', !!int '60', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '230', 'p': [!!int '30']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['入場する', '他の場所へ'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Enter', 'Go to another location'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '入場する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '221', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '235', 'p': [!!int '20']}
@@ -5290,7 +5301,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '4', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……ケリーメローさんに会って確かめなきゃいけない。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to meet with Kellymellow-san to make sure.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -5331,8 +5342,9 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……あの人の言う通りかも知れない。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['念の為に街へ戻ってみよう……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...That person might be right. Just to be safe, let''s head
+
+            back to town...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -5372,8 +5384,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【ニトロリーヌ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……約束の場所へ行かなきゃ。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Nitroline】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have to go to the promised place.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
     - !ruby/object:RPG::Event::Page
       'condition': !ruby/object:RPG::Event::Page::Condition
@@ -5414,7 +5426,7 @@
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['face22', !!int '0', !!int '0', !!int '2']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Taro】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '35': !ruby/object:RPG::Event
     'id': !!int '35'

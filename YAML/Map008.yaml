@@ -191,9 +191,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['よう、Taro。']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['殺しの道具を新調したけりゃ、材料と金を持って来るんだね。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hey, Taro. If you want to get some new tools for killing,
+
+            bring the materials and money.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '355', 'p': ['recipe_all_switch_on']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '355', 'p': ['SceneManager.call(Scene_ItemSynthesis)']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
@@ -241,9 +242,9 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['やあ、Taro。今日は何の用だい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['武器', '防具'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hey, Taro. What brings you here today?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Weapons', 'Armor'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '武器']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '0', !!int '4', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '302', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!bool 'false']}
@@ -321,12 +322,16 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Blind', 'pitch': !!int '65', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]Information\C[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['武器を強化する際には、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['「装備中の武器」「料金」「武器強化キット」を消費します。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['To enhance a weapon, you will consume the "equipped weapon,"
+
+            "fee," and "weapon enhancement kit."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]Information\C[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['「武器強化キットの変換」については店主に話しかける事で無償で']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['行えるものの、ダウングレードのみしか行う事が出来ません。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['As for "weapon enhancement kit conversion," you can do it
+
+            for free by talking to the shopkeeper, but only downgrades
+
+            are possible.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '121', 'p': [!!int '843', !!int '843', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '123', 'p': ['A', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}

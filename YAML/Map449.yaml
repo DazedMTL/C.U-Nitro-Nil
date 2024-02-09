@@ -191,8 +191,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['殺しの道具を新調したけりゃ、材料と金を持って来るんだね。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['If you want to get new tools for killing, bring the
+
+            materials and money.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '355', 'p': ['recipe_all_switch_on']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '355', 'p': ['SceneManager.call(Scene_ItemSynthesis)']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
@@ -234,8 +236,10 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノ】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['……アンタみたいなのに用事は無いよ。とっととここから消えな。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['...I have no business with someone like you. Now scram, get
+
+            out of here.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '3': !ruby/object:RPG::Event
     'id': !!int '3'
@@ -281,9 +285,9 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['今日は何の用だい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['武器', '防具'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['What brings you here today?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Weapons', 'Armor'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '武器']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '0', !!int '4', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '302', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!bool 'false']}
@@ -352,9 +356,9 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['今日は何の用だい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['武器', '防具', '武器強化キット変換'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['What brings you here today?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Weapons', 'Armor', 'Weapon Enhancement Kit Conversion'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '武器']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '302', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '605', 'p': [!!int '1', !!int '21', !!int '0', !!int '0']}
@@ -368,10 +372,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '2', '武器強化キット変換']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '8', !!int '122']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\C[1]武器強化キットBを、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['武器強化キットAに変換\C[0]するかい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '102', 'p': [['変換する', 'しない'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\C[1]Do you want to convert Weapon Enhancement Kit B into Weapon
+
+            Enhancement Kit A\C[0]?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '102', 'p': [['Convert', 'Do not convert'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '402', 'p': [!!int '0', '変換する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '126', 'p': [!!int '122', !!int '1', !!int '0', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '126', 'p': [!!int '50', !!int '0', !!int '0', !!int '1']}
@@ -385,10 +390,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '111', 'p': [!!int '8', !!int '123']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\C[1]武器強化キットCを、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['武器強化キットBに変換\C[0]するかい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['変換する', 'しない'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\C[1]Do you want to convert Weapon Enhancement Kit C into Weapon
+
+            Enhancement Kit B\C[0]?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['Convert', 'Do not convert'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '0', '変換する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '126', 'p': [!!int '123', !!int '1', !!int '0', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '126', 'p': [!!int '122', !!int '0', !!int '0', !!int '1']}
@@ -447,9 +453,9 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['今日は何の用だい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['武器', '防具', '武器強化キット変換'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['What brings you here today?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Weapons', 'Armor', 'Weapon Enhancement Kit Conversion'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '武器']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '302', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '605', 'p': [!!int '1', !!int '21', !!int '0', !!int '0']}
@@ -467,10 +473,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '2', '武器強化キット変換']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '8', !!int '122']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\C[1]武器強化キットBを、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['武器強化キットAに変換\C[0]するかい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '102', 'p': [['変換する', 'しない'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\C[1]Do you want to convert Weapon Enhancement Kit B into Weapon
+
+            Enhancement Kit A\C[0]?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '102', 'p': [['Convert', 'Do not convert'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '402', 'p': [!!int '0', '変換する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '126', 'p': [!!int '122', !!int '1', !!int '0', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '126', 'p': [!!int '50', !!int '0', !!int '0', !!int '1']}
@@ -484,10 +491,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '111', 'p': [!!int '8', !!int '123']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\C[1]武器強化キットCを、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['武器強化キットBに変換\C[0]するかい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['変換する', 'しない'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\C[1]Do you want to convert Weapon Enhancement Kit C into Weapon
+
+            Enhancement Kit B\C[0]?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['Convert', 'Do not convert'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '0', '変換する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '126', 'p': [!!int '123', !!int '1', !!int '0', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '126', 'p': [!!int '122', !!int '0', !!int '0', !!int '1']}
@@ -546,9 +554,9 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['今日は何の用だい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['武器', '防具', '武器強化キット変換'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['What brings you here today?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '102', 'p': [['Weapons', 'Armor', 'Weapon Enhancement Kit Conversion'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '0', '武器']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '302', 'p': [!!int '1', !!int '1', !!int '0', !!int '0', !!bool 'false']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '605', 'p': [!!int '1', !!int '21', !!int '0', !!int '0']}
@@ -566,10 +574,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '402', 'p': [!!int '2', '武器強化キット変換']}
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '111', 'p': [!!int '8', !!int '122']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\C[1]武器強化キットBを、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['武器強化キットAに変換\C[0]するかい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '102', 'p': [['変換する', 'しない'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '401', 'p': ['\C[1]Would you like to convert Weapon Enhancement Kit B into
+
+            Weapon Enhancement Kit A\C[0]?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '102', 'p': [['Convert', 'Do not convert'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '402', 'p': [!!int '0', '変換する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '126', 'p': [!!int '122', !!int '1', !!int '0', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '126', 'p': [!!int '50', !!int '0', !!int '0', !!int '1']}
@@ -583,10 +592,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '1', 'c': !!int '411', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '111', 'p': [!!int '8', !!int '123']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\C[1]武器強化キットCを、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['武器強化キットBに変換\C[0]するかい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['変換する', 'しない'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '401', 'p': ['\C[1]Would you like to convert Weapon Enhancement Kit C into
+
+            Weapon Enhancement Kit B\C[0]?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '102', 'p': [['Convert', 'Do not convert'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '402', 'p': [!!int '0', '変換する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '126', 'p': [!!int '123', !!int '1', !!int '0', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '126', 'p': [!!int '122', !!int '0', !!int '0', !!int '1']}
@@ -600,10 +610,11 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '2', 'c': !!int '411', 'p': []}
       - !ruby/object:RPG::EventCommand {'i': !!int '3', 'c': !!int '111', 'p': [!!int '8', !!int '124']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[1]武器強化キットDを、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['武器強化キットCに変換\C[0]するかい？']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '102', 'p': [['変換する', 'しない'], !!int '5']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '401', 'p': ['\C[1]Would you like to convert Weapon Enhancement Kit D into
+
+            Weapon Enhancement Kit C\C[0]?']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '102', 'p': [['Convert', 'Do not convert'], !!int '5']}
       - !ruby/object:RPG::EventCommand {'i': !!int '4', 'c': !!int '402', 'p': [!!int '0', '変換する']}
       - !ruby/object:RPG::EventCommand {'i': !!int '5', 'c': !!int '126', 'p': [!!int '124', !!int '1', !!int '0', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '5', 'c': !!int '126', 'p': [!!int '123', !!int '0', !!int '0', !!int '1']}
@@ -664,8 +675,8 @@
       'trigger': !!int '0'
       'list':
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '0', !!int '2']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【アロガノの息子】']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['ん？俺に何か用かな？']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['【Son Of Arogano】']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['Hm? Do you need something from me?']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
   !!int '4': !ruby/object:RPG::Event
     'id': !!int '4'
@@ -714,12 +725,16 @@
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '250', 'p': [!ruby/object:RPG::SE {'name': 'Blind', 'pitch': !!int '65', 'volume': !!int '80'}]}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]Information\C[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['武器を強化する際には、']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['「装備中の武器」「料金」「武器強化キット」を消費します。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['To enhance a weapon, you will need to consume the "equipped
+
+            weapon," "fee," and "weapon enhancement kit."']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '101', 'p': ['', !!int '0', !!int '1', !!int '1']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['\C[1]Information\C[0]']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['「武器強化キットの変換」については店主に話しかける事で無償で']}
-      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['行えるものの、ダウングレードのみしか行う事が出来ません。']}
+      - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '401', 'p': ['As for "weapon enhancement kit conversion," you can do it
+
+            for free by talking to the shopkeeper, but only downgrades
+
+            are possible.']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '121', 'p': [!!int '843', !!int '843', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '123', 'p': ['A', !!int '0']}
       - !ruby/object:RPG::EventCommand {'i': !!int '0', 'c': !!int '0', 'p': []}
