@@ -744,7 +744,7 @@ class Window_ItemSynthesisMaterial < Window_Base
     rect = Rect.new(x, y, contents.width, line_height)
     change_color(system_color)
     contents.font.size = 18
-    draw_text(rect, "必要素材", 0)
+    draw_text(rect, "Materials", 0)
     if @recipe
       for i in 1...@recipe.size
         kind = @recipe[i][0]
@@ -879,7 +879,7 @@ class Window_ItemSynthesisChange < Window_Base
   #--------------------------------------------------------------------------
   def refresh
     contents.clear
-    text = "Z: 素材 ⇔ ステータス 表示切り替え"
+    text = "Z: Material ⇔ Status Display Toggle"
     draw_text(0, 0, contents_width, line_height, text, 1)
   end
 end
