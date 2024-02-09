@@ -4812,13 +4812,13 @@ class Window_TargetHelp < Window_Help
   def refresh
     contents.clear
     if @text == :party
-      draw_text(contents.rect, "味方全体", 1)
+      draw_text(contents.rect, "All Allies", 1)
     elsif @text == :troop
-      draw_text(contents.rect, "敵全体", 1)
+      draw_text(contents.rect, "All Enemies", 1)
     elsif @text == :troop_random
       case LNX11::RANDOMSCOPE_DISPLAY
-      when 0 ; draw_text(contents.rect, "敵全体 ランダム", 1)
-      when 1 ; draw_text(contents.rect, "敵#{random_number}体 ランダム", 1)
+      when 0 ; draw_text(contents.rect, "All Enemies (Random)", 1)
+      when 1 ; draw_text(contents.rect, "Enemy#{random_number} (Random)", 1)
       end
     elsif @text.is_a?(Game_Battler)
       # 選択対象の情報を描画
